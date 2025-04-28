@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: navajowhite;
+}
+
+.products-list{
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+}

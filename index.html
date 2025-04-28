@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Update Product</title>
+</head>
+<body>
+
+    <div class="container">
+        <form class="product-form">
+            <p>Enter product ID</p>
+            <input type="number" class="productId" placeholder="Product ID" required>
+            <p>Title</p>
+            <input type="text" class="productTitle" placeholder="Product Title">
+            <p>Price</p>
+            <input type="number" class="productPrice" placeholder="Product Price">
+            <p>Description</p>
+            <input type="text" class="productDescription" placeholder="Product Description">
+            <p>Image URL</p>
+            <input type="text" class="productImage" placeholder="Product Image URL">
+            <p>Category</p>
+            <input type="text" class="productCategory" placeholder="Product Category">
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="products-list"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
